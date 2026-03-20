@@ -4,57 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alvaro Tagny - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <!--section header-->
-   <header>
-        <span>Mr-Taf</span>
-        <nav>
-            <ul>
-               <li><a href="#apropos"> A propos</a></li>
-               <li><a href="#competences">Compétences</a></li>
-               <li><a href="#parcours">Parcours</a></li>
-               <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-   
-  
-    
-        <p>Developpeur Web - Etudiant en informatique</p>
-        <h1>TAGNY <br> <em>Fred Alvaro</em></h1>
+
         
-        <p>Je suis Alvaro , un étudiant en informatique fondamentale à l'univeersité de Yaoundé 1. <br>
+    <nav class="container">
+        <div class="logo">Mr-Taf</div>
+        
+            <a href="#apropos" class="nav-link"> A propos</a>|
+            <a href="#competences" class="nav-link">Compétences</a>|
+            <a href="#parcours" class="nav-link">Parcours</a>|
+            <a href="#contact" class="nav-link">Contact</a>
+           
+    </nav>
+   
+        <hr>
+
+    <!--section header-->
+
+    <header class="nav-bar">
+
+    <div class="texte">
+        <p class="coloration">Developpeur Web - Etudiant en informatique</p>
+        <h1>
+            <span class="nom">TAGNY </span>
+             
+            <br>
+             <em class="coloration">Fred Alvaro</em>
+        </h1>
+        
+        <p>Je suis Alvaro , un étudiant en informatique fondamentale à l'univeersité de Yaoundé 1.
         je suis passionné par l'expérience web moderne. Je trace donc ma route vers le developpement front-end</p>
 
-        <p><a href="#contact">Me contacter</a></p>
+        <p><a href="#contact" class="button">Me contacter</a></p>
+    </div>
 
-        <img src="Sans titre.jpeg" alt="ma photo">
-        
+        <div class="">
+          <img src="Sans titre.jpeg" alt="ma photo" width="500" height="500" class="image">
+        </div>
+
     </header>
+
     <!--section principal-->
+
     <main>
+
     <!--section a propos-->
-    <section id="A propos">
-        <p>À propos</p>
 
-        <h2>Qui suis-je ?</h2>
+    <section id="A propos" class="about">
 
-        <p>je suis étudiant en première année d'informatique,animé par une vraie <br>
-             curiosité pour le web et les technologies. Je m'interesse particulièrement à <br>
-            la conception d'interface élégantes à l'expérience utlisateur et aux bonnes <br>
-            pratique du developpement front-end.
-        </p>
-        <p>
+        <div class="about-text">
+
+            <p class="coloration">À propos</p>
+
+             <h2 style="color: black;">Qui suis-je ?</h2>
+
+             <p>je suis étudiant en première année d'informatique,animé par une vraie <br>
+               curiosité pour le web et les technologies. Je m'interesse particulièrement à <br>
+               la conception d'interface élégantes à l'expérience utlisateur et aux bonnes <br>
+                pratique du developpement front-end.
+            </p>
+            <p>
             Mon objectif: devenir developpeur front-end capable de transformer  <br>
             des idées en expériences digitales mémorables.
-        </p>
+            </p>
+        </div>
 
-        <div>
+        <div class="about-stat">
             
-                
+            <article class="stat">
                 <p>1<sub>ère</sub>année d'informatique</p>
-                <p>3+ technologies</p>
+            </article>
 
+            <article class="stat">
+                <p>3+ technologies</p>
+            </article>
+
+            <article class="stat">
                 <p>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentcolor" class="bi bi-ininity" viewBox="0 0 16">
                         <path d="M5.68 5.792 7.345 7.75 5.681 9.708a2.75 2.75 0 1 1 0-3.916ZM8 6.978 6.416 5.113l-.014-.015a3.75 3.75 0 1 0 0 5.304l.014-.015L8 8.522l1.584 1.865.014.015a3.75 3.75 0 1 0 0-5.304l-.014.015zm.656.772 1.663-1.958a2.75 2.75 0 1 1 0 3.916z"/>
@@ -62,46 +94,52 @@
                     </svg>
                     envie d'apprendre
                 </p>
+            </article>
            
         </div>
 
     </section>
     <!--section compétences-->
-    <section id="Compétences">
-        <p>COMPETENCES</p>
+    <section id="Compétences" class="competences">
+
+        <h3>COMPETENCES</h3>
+
         <h2>
             Ce que je sais faire
         </h2>
 
-        <article>
+        <article class="stats">
             <h3>HTML</h3>
             <p>Strutures sémantiques, accéssibilités, bonne pratiques</p>
         </article>
 
-        <article>
+        <article class="stats">
             <h3>Git</h3>
             <p>Versionning, branches, gestion de l'historique.</p>
         </article>
 
-        <article>
+        <article class="stats">
             <h3>GitHub</h3>
             <p>Collaboration, pull requests, hebergement de projet</p>
         </article>
 
-        <article>
+        <article class="stats">
             <h3>Travail en équipe</h3>
             <p>Communication, organisation, méthode agiles</p>
         </article>
 
-        <article>
+        <article class="stats">
             <h3>Résolution de problemes</h3>
             <p>Analyse, décomposition, logique algorithmique</p>
         </article>
     </section>
+
     <!--section parcours-->
+
     <section id="Parcours">
+
         <p>PARCOURS</p>
-        <h1>MOn chemin</h1>
+        <h1>Mon chemin</h1>
 
         <div>
             <p>DIPLOME</p>
@@ -120,8 +158,8 @@
         </div>
     </section>
     <!--section contacter-->
-    <section id="contacter">
-        <p>CONTACT</p>
+    <section id="contacter" class="phone">
+        <h3>CONTACT</h3>
             <h1>Travaillons  <br>
                 <em>ensemble</em>
             </h1>
@@ -130,7 +168,7 @@
                 décharger ? N'hesitez pas à m'écrire.
             </p>
 
-        <form>
+        <form class="form">
             <label for="name">Nom complet</label>
             <input type="text" id="name">
             <br>

@@ -1,0 +1,167 @@
+.container  {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-end ;
+    height: 5vh;
+    gap: 20px;
+    background-color: #f5f5f5;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+body {
+    color: #444135;
+    font-family: Arial, sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 80px;
+}
+
+.texte {
+    max-width: 800px;
+    margin: 300px;
+    
+}
+
+.coloration {
+    color: #c8a97e;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 10px ;
+}
+
+h1 em {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    margin: 50px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.image {
+    
+    border-radius: 50%;
+    object-fit: cover;
+    border: 20px solid #c8a97e;
+    margin-left: 30px;
+    margin-right: 250px;
+    margin-top: 250px;
+}
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+    line-height: 1.8;
+}
+
+.nom {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 50px;
+    color: black;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    
+}
+
+.stat {
+    background-color: #f0f0f0;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align:left;
+}
+
+.about-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.about-text {
+    max-width: 100%;
+    margin-left: 300px;
+    
+}
+.about-text p {
+    margin-top: 15px;
+    color: #666;
+}
+
+.competences {
+    color: #f0f0f0;
+    background-color: black;
+    margin: 300px;
+
+
+}
+
+.stats {
+    border: #c8a97e solid 2px;
+    border-radius: 10px;
+    margin: 20px 20px 20px 20px;
+    display: grid;
+    padding: 20px  20px;
+    margin-top: 12px;
+}
+
+.form {
+    
+    flex-direction: column;
+}
+.phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+    background-color: black;
+    margin: 300px;
+}
+.phone p {
+    justify-content: space-between;
+    max-width: 100%;
+}
