@@ -2,11 +2,15 @@
     display: flex;
     flex-direction: row;
     align-items:center;
-    justify-content: flex-end ;
+    justify-content: space-between ;
     height: 5vh;
-    gap: 20px;
     background-color: #f5f5f5;
     
+}
+
+.container liens {
+    display: flex;
+    gap: 20px;
 }
 
 .nav-link {
@@ -14,6 +18,13 @@
     color: gray;
     font-size: 15px;
     margin-left: 30px;
+}
+
+a:hover {
+    color: #666;
+    background-color: #d4b27e;
+    padding: 20px;
+    transition: 1s;
 }
 
 .logo {
@@ -102,6 +113,11 @@ p {
     align-items: flex-start;
     padding: 40px;
     font-family: Arial, sans-serif;
+    border: #d0d0d0 solid 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+    border-radius: 30px;
     
 }
 
@@ -117,13 +133,13 @@ p {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin-left: 250px;
-    margin-right: 250px;
+    
+   
 }
 
 .about-text {
     max-width: 100%;
-    margin-left: 300px;
+   
     
 }
 .about-text p {
@@ -422,4 +438,16 @@ p {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+@media screen and (max-width: 1500px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-height: 1500px) {
+    body {
+        height: 100%;
+    }
 }
