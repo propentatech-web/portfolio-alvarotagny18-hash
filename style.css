@@ -153,6 +153,7 @@ p {
     margin: 300px;
     padding: 52px 56px;
     display: grid;
+    border-radius: 20px;
 
 }
 
@@ -339,6 +340,7 @@ p {
     max-width: 900px;
     padding:5rem 2rem 40rem ;
     margin-left: 300px;
+    margin-right: 300px;
     
 }
 .label {
@@ -364,6 +366,8 @@ p {
       letter-spacing: 0.03em;
       width: 60px;
       text-align: right;
+      border-left: #2e2e2a solid 2px;
+
 }
 
 .dot {
@@ -421,7 +425,10 @@ p {
 
 .timeline {
     position: relative;
-    padding-left: 100px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .timeline::before {
