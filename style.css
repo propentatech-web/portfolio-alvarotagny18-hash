@@ -490,14 +490,26 @@ p {
     padding: 0;
 }
 
-@media screen and (max-width: 1500px) {
+@media  (max-width: 1500px) {
     body {
         width: 100%;
     }
 }
 
-@media screen and (max-height: 1500px) {
+@media  (max-height: 1500px) {
     body {
         height: 100%;
     }
+}
+
+.container>footer {
+    background-color:#24211a;
+    color: #8a6630;
+    
+}
+
+:root {
+    --background-color:#0f0f0f;
+    --hero-color:#2a2a2a;
+    --primary-color:#00ab67;
 }
